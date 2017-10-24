@@ -1,4 +1,4 @@
-FROM alpine:3.6
+FROM openjdk:8u131-jdk-alpine
 
 ENV SPARK_HOME /usr/local
 RUN apk add --no-cache --update bash wget && \
