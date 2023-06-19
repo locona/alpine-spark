@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM openjdk:17-jdk-alpine
 
 ENV SPARK_HOME /usr/local
 RUN apk add --no-cache --update bash wget && \
